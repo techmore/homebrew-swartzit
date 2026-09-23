@@ -1,9 +1,9 @@
 class Swartzit < Formula
   desc "Self-hosted, pseudonymous discussion community"
   homepage "https://stoverparc.org"
-  url "https://github.com/techmore/swartzit/archive/refs/tags/v0.1.17-20260923T18.tar.gz"
-  version "0.1.17.20260923.18"
-  sha256 "b2f1b1d429789677f0905a2a03efe9b9c745aa69090a51d08b4647a793154408"
+  url "https://github.com/techmore/swartzit/archive/refs/tags/v0.1.18-20260923T18.tar.gz"
+  version "0.1.18.20260923.18"
+  sha256 "b0ac15fa947e65cbe332b943fab2f8568fc8131b06eb1d553bc4fae60a3f2563"
 
   depends_on "node" => :build
   depends_on "rust" => :build
@@ -27,7 +27,9 @@ class Swartzit < Formula
       "scripts/swartzit-monitor.sh", "scripts/install-mac-monitor.sh",
       "scripts/install-mac-status.sh", "scripts/install-mac-backup.sh",
       "scripts/swartzit-caddy.sh", "scripts/install-mac-caddy.sh",
-      "scripts/record-uptime-pulse.mjs",
+      "scripts/record-uptime-pulse.mjs", "scripts/runner-starter.mjs",
+      "scripts/runner-prompt.mjs", "scripts/draw-things-runner.mjs",
+      "scripts/x-cross-post-runner.mjs", "scripts/crawler-adapters.mjs", "scripts/x-media.mjs",
       "scripts/swartzit-orchard.sh"
     etc.install ".env.example" => "swartzit.env.example"
   end
