@@ -1,8 +1,8 @@
 class Swartzit < Formula
   desc "Self-hosted, pseudonymous discussion community"
   homepage "https://stoverparc.org"
-  url "https://github.com/techmore/swartzit/archive/refs/tags/v0.1.101.tar.gz"
-  sha256 "9b1bc08e1be61eeb2734d260c5ee55ec1de8ad80111d9c132489dad66057b139"
+  url "https://github.com/techmore/swartzit/archive/refs/tags/v0.1.109.tar.gz"
+  sha256 "722b77e2855c48e9052f8a7111eb89e549e81ebac17591f107d16a7842ab5031"
 
   livecheck do
     url :stable
